@@ -1,0 +1,172 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgb(10, 10, 10);
+  color: rgb(224, 173, 32);
+}
+
+#aboutMeContainer {
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  /* background-color: rebeccapurple; */
+}
+
+#aboutMeComment {
+  padding-top: 30px;
+}
+
+#pp {
+  border: 5px solid rgb(224, 173, 32);
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+
+#skillsAndLanguagesContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 5%;
+}
+#aboutMeSection {
+  background-color: whitesmoke;
+  border-top: 5px solid rgb(224, 173, 32);
+  border-bottom: 5px solid rgb(224, 173, 32);
+  color: black;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#aboutMeParagraphContainer {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 33% auto;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 75px;
+}
+
+#aboutMeParagraph {
+  font-size: 30px;
+}
+
+li {
+  font-size: 20px;
+}
+
+#myProjects {
+  padding: 50px;
+}
+
+header {
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
+
+  padding-left: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color: rgb(224, 173, 32);
+  color: white;
+}
+
+#pcIcon {
+  background-color: aliceblue;
+  size: 500px;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.child {
+  height: 50px;
+  width: 50px;
+  animation: bounce-back 20s linear forwards infinite;
+  position: absolute;
+  top: 5px;
+  left: -120px;
+  z-index: -1;
+}
+
+.child2 {
+  position: absolute;
+  top: 100px;
+  animation-duration: 18s;
+  animation-delay: 2.5s;
+}
+
+.child3 {
+  position: absolute;
+  top: 200px;
+  animation-delay: 1.3s;
+  animation-duration: 15s;
+}
+
+.child4 {
+  position: absolute;
+  top: 300px;
+  animation-duration: 23s;
+  animation-delay: 3.2s;
+}
+
+@keyframes bounce-back {
+  100% {
+    transform: translate(2000px);
+  }
+}
+
+#projectContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 5%;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectBubbles {
+  background-color: aliceblue;
+  text-align: center;
+  height: 200px;
+  /* width: 200px; */
+}
+
+.projectBubbleText {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* width: fit-content; */
+  padding: 20px;
+  border: solid orange 5px;
+  font-size: 20px;
+  text-decoration: black;
+  color: orange;
+  outline: 2px solid black;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#foodMacro {
+  background-image: url(photos/pexels-maarten-van-den-heuvel-2284166.jpg);
+  background-size: cover;
+  border: 2px orange solid;
+}
+
+#todoList {
+  background-image: url(photos/pexels-suzy-hazelwood-1226398.jpg);
+  background-size: cover;
+  border: 2px orange solid;
+}
+
+#guessGame {
+  background-image: url(photos/pexels-pixabay-356079.jpg);
+  background-size: cover;
+  border: 2px orange solid;
+}
