@@ -90,7 +90,7 @@ header {
   animation: bounce-back 20s linear forwards infinite;
   position: absolute;
   top: 5px;
-  left: -120px;
+  left: -150px;
   z-index: -1;
 }
 
@@ -117,7 +117,7 @@ header {
 
 @keyframes bounce-back {
   100% {
-    transform: translate(2000px);
+    transform: translateX(105vw);
   }
 }
 
@@ -169,4 +169,8 @@ header {
   background-image: url(photos/pexels-pixabay-356079.jpg);
   background-size: cover;
   border: 2px orange solid;
+}
+
+#resumeLink {
+  color: orange;
 }
