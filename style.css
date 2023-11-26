@@ -2,6 +2,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   background-color: rgb(10, 10, 10);
@@ -16,7 +18,44 @@ body {
 }
 
 #aboutMeComment {
-  padding-top: 30px;
+  padding-top: 75px;
+}
+
+#aboutMeName {
+  margin-top: 40px;
+}
+
+#scrollButton {
+  scroll-behavior: smooth;
+  background-color: orange;
+  border-color: white;
+  box-shadow: white;
+  color: black;
+}
+
+.btn:hover {
+  box-shadow: white;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem white;
+}
+
+#contactButton {
+  background-color: orange;
+  border-color: white;
+  color: black;
+  box-shadow: white;
+}
+
+.modalContactBox {
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: black;
 }
 
 #pp {
@@ -69,8 +108,8 @@ header {
   margin-left: -10px;
   margin-right: -10px;
   padding: 10px;
-
-  padding-left: 10px;
+  padding-top: 15px;
+  padding-left: 20px;
   font-size: 20px;
   border: 2px solid black;
   background-color: rgb(224, 173, 32);
@@ -173,4 +212,8 @@ header {
 
 #resumeLink {
   color: orange;
+}
+
+#myResume {
+  text-align: center;
 }
