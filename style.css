@@ -19,6 +19,8 @@ body {
 
 #aboutMeComment {
   padding-top: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #aboutMeName {
@@ -161,7 +163,7 @@ header {
 
 @keyframes bounce-back {
   100% {
-    transform: translateX(105vw);
+    transform: translateX(110vw);
   }
 }
 
