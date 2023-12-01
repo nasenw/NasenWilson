@@ -273,3 +273,8 @@ header {
   background-size: cover;
   border: 2px rgb(255, 255, 255) solid;
 }
+
+#credits {
+  display: flex;
+  gap: 10px;
+}
