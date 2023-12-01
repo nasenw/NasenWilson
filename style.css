@@ -60,6 +60,7 @@ body {
   font-size: 17px;
   margin-bottom: 20px;
   color: black;
+  text-shadow: none;
 }
 
 #pp {
@@ -205,6 +206,7 @@ header {
   top: 300px;
   animation-duration: 23s;
   animation-delay: 3.2s;
+  z-index: 1;
 }
 
 @keyframes bounce-back {
